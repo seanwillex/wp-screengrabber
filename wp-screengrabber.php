@@ -4,7 +4,7 @@
  * Plugin URI: https://www.bomawilliams.com/wp-screengrabber
  * Description: A plugin to take screenshots of full websites (header to footer) or selected areas and save them as images.
  * Version: 1.0.0
- * Author: Boma N. Williams
+ * Author: Boma Williams
  * Author URI: https://www.linkedin.com/in/boma-williams/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
