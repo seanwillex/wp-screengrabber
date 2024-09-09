@@ -1,0 +1,57 @@
+/* Admin styles for WP Screengrabber */
+.wp-screengrabber-admin-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wp-screengrabber-admin-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.wp-screengrabber-admin-header h1 {
+    color: #23282d;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.wp-screengrabber-admin-content {
+    margin-top: 20px;
+}
+
+.wp-screengrabber-admin-section {
+    margin-bottom: 30px;
+}
+
+.wp-screengrabber-admin-section h2 {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.wp-screengrabber-admin-field {
+    margin-bottom: 15px;
+}
+
+.wp-screengrabber-admin-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.wp-screengrabber-admin-field input[type="text"],
+.wp-screengrabber-admin-field select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.wp-screengrabber-admin-submit {
+    margin-top: 20px;
+}

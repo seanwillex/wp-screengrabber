@@ -1,0 +1,127 @@
+.wp-screengrabber-floating-button {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wp-screengrabber-floating-button:hover {
+    background-color: #005177;
+    transform: scale(1.1);
+}
+
+.wp-screengrabber-floating-button .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.wp-screengrabber-floating-button.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.wp-screengrabber-floating-button.top-right {
+    top: 20px;
+    right: 20px;
+}
+
+.wp-screengrabber-floating-button.bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.wp-screengrabber-floating-button.bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+
+.wp-screengrabber-modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wp-screengrabber-modal-content {
+    background-color: #f1f1f1;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wp-screengrabber-modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.wp-screengrabber-modal-content button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.wp-screengrabber-modal-content button:hover {
+    background-color: #005177;
+}
+
+.wp-screengrabber-close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wp-screengrabber-close:hover,
+.wp-screengrabber-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wp-screengrabber-selection-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9998;
+    cursor: crosshair;
+}
+
+.wp-screengrabber-selection {
+    position: absolute;
+    border: 2px solid #1e90ff;
+    background-color: rgba(30, 144, 255, 0.2);
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
